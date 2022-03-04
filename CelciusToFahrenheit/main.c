@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    // fahrenheit  to celsius convert program
+    // celsius to fahrenheit convert program
     int celsius;
     float fahrenheit;
+    printf("Please enter celsius to get fahrenheit \n");
     scanf("%d", &celsius);
     fahrenheit = (celsius * 9 / 5) + 32;
-    printf("%.2f", fahrenheit);
+    printf("Fahrenheit is = %.2f", fahrenheit);
     return 0;
 }
